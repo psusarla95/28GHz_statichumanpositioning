@@ -24,41 +24,44 @@ Describe the files included in this
 ```
 
 ## Dataset Details
-- **Format:** CSV, JSON, or other formats used
+- **Format:** CSV, .mat, or other formats used
 - **Number of Samples:** X
-- **Number of Features:** Y
-- **Collection Method:** Describe briefly
-- **License:** Specify (e.g., CC BY 4.0, MIT, etc.)
+- **labels:** y
+- **Collection Method:** A 5G communication setup is implemented and operated at 28 GHz radio frequency using USRPs and 5GCHAMPION testbed. The camera is synchronized with 5G CHAMPION testbed and is used to capture the camera data. PHY layer radio data such as CSI is collected using vector network analyzer connected to the 5G communication hardware. 
+- **License:** MIT
 
 ## How to Use
 ### Downloading the Dataset
 Clone this repository and access the dataset:
 ```bash
-git clone https://github.com/yourusername/dataset-repo.git
+git clone https://github.com/psusarla95/28GHz_statichumanpositioning.git
 ```
 
 ### Loading the Dataset
-Example in Python:
+Example usage in Python:
 ```python
-import pandas as pd
-df = pd.read_csv("data/processed_data.csv")
-print(df.head())
+X,y = load_data_from_scratch()
 ```
 
 ## Citation
 If you use this dataset, please cite it as follows:
 ```
-@dataset{your_dataset,
-  author = {Your Name},
-  title = {Dataset Name},
-  year = {2025},
-  url = {https://github.com/yourusername/dataset-repo}
+@INPROCEEDINGS{10646323,
+  author={Zampato, Silvia and Susarlal, Praneeth and Jokinen, Markku and Tervo, Nuutti and Leinonen, Marko E. and López, Miguel Bordallo and Juntti, Markku and Rossi, Michele and Silvén, Olli},
+  booktitle={2024 IEEE 4th International Symposium on Joint Communications & Sensing (JC&S)}, 
+  title={Static Human Position Classification from Indoor mmWave Radio RSSI Measurements}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/JCS61227.2024.10646323}
 }
+
 ```
 
 ## License
-Specify the license for dataset usage.
+MIT License
 
 ## Contact
-For any issues or questions, contact [your.email@domain.com](mailto:your.email@domain.com).
+For any issues or questions, contact [praneeth.susarla@oulu.fi], [silvia.zampato@phd.unipd.it].
 
