@@ -1,0 +1,1 @@
+{'acc': array([1., 1.]), 'pre': array([1., 1.]), 'rec': array([1., 1.]), 'f1': array([1., 1.]), 'avgacc': 1.0, 'avgpre': 1.0, 'avgrec': 1.0, 'avgf1': 1.0}
