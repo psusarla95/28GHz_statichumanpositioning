@@ -2,7 +2,6 @@
 Static Human Positioning in a passive sensing manner using CSI information from 28GHz communication inffrastructure setup. 
 
 ## File Structure
-Describe the files included in this
 
 ```
 📂 28GHz_statichumanpositioning/
